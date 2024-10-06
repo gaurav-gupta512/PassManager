@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .mycomponents {
+      @apply mx-auto font-bold text-lg py-2 px-4 rounded text-center w-3/4 pt-6;
+    }
+  }
+
+@layer device {
+    .device {
+      @apply mx-auto text-xs font-bold py-1 px-2 rounded text-center;
+    }
+  }
